@@ -1,0 +1,7 @@
+<uwsgi>  
+    <socket>127.0.0.1:3034</socket>  
+    <chdir>.</chdir>  
+    <pythonpath>.</pythonpath>  
+    <module>appointment.wsgi</module>  
+    <daemonize>/var/log/uwsgi/by6.uwsgi.log</daemonize>  
+</uwsgi> 
